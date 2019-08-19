@@ -1,0 +1,146 @@
+main{
+margin-top: 3rem;
+}
+
+
+/*STYLING FOR THE SIDE BAR*/
+.sidebar-sticky{
+margin-top: 5rem;
+position: fixed;
+}
+
+nav .sidebar{
+ /* background: #000;*/
+ background: #fbfbfb;
+
+}
+
+.sidebar a{
+  font-size: 12px;
+  color: #b1b2b4;
+}
+.sidebar a:hover{
+  font-size: 14px;
+  color: #fefefe;
+  background: #17a2b8;
+}
+.nav-item .fas{
+  font-size: 1.3rem;
+}
+
+/*STYLING FOR THE INPUT WITH A TYPE OF DATE*/
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+
+input[type="date"]:focus:before, input[type="date"]:valid:before {
+    content: "";
+  }
+
+  /*SPECIFIES THE WIDTH OF THE PAGE*/
+.custom-container{
+  width: 90%;
+}
+
+
+/*CONTENT DISPLAY SECTION OF THE STUDENT AND PARENT SECTIONS. SOME ASPECTS OF THE ADMIN SECTION ALSO HAVE BOOTSTRAP CARDS CARDS*/
+.card{
+  margin-top: 2rem;
+}
+
+
+/*SHADOW EFFECTS*/
+.shadow-wrapper{
+  background: #fbfbfb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+  padding: 4rem;
+}
+
+/*SIDE BAR NAV LINKS STYLES 
+nav .nav-item a::after{
+  content: " ";
+  background: #aaa;
+  display: block;
+  height: 1.0px;
+  width: 100%;
+  margin: 5px 1px;
+}
+nav .nav-item a::after:hover{
+  content: "";
+  display: none;
+  height: 0;
+  margin: 5px 1px;
+}
+*/
+
+/*Style for check boxes*/
+.form-check-inline .form-check-label{
+  padding: 0.5rem;
+}
+
+
+/*Admin Dashboard*/
+.boxes{
+  padding: 1rem;
+  height: 10rem;
+  margin: 0.5rem;
+}
+.boxes:hover{
+   background: #17a2b8;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.one{
+  background: #01cb73;
+}
+.two{
+  background: #fdc470;
+}
+.three{
+  background: #e64d63;
+}
+.four{
+  background: #b34fe7;
+}
+
+
+/*Label For Info Display*/
+.info-label{
+  font-weight: bold;
+}
+/*Small Box, wrapps around student-info display*/
+.small-box{
+  width: 80%;
+}
+
+/*Card Title*/
+.info-title{
+  background: #ccc;
+  color: #333f4b;
+}
+
+/*Edit Box*/
+.edit-box{
+  float: right;
+  background: #ccc;
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+}
+.edit-box h4{
+  text-align: center;
+}
+.edit-box button{
+margin-left: 20px;
+}
+.edit-box h4:after{
+  content: "";
+  background: #333f4b;
+  display: block;
+  height: 1px;
+}
